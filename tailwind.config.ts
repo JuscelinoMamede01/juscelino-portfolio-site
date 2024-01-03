@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+
 const { nextui } = require("@nextui-org/react");
 
 const config: Config = {
@@ -7,6 +8,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
   theme: {
     extend: {
@@ -20,6 +22,18 @@ const config: Config = {
     },
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [nextui(), require("flowbite/plugin")],
 };
 export default config;
+
+// /** @type {import('tailwindcss').Config} */
+// export default {
+//   content: [
+//     // ...
+//     'node_modules/flowbite-react/lib/esm/**/*.js',
+//   ],
+//   plugins: [
+//     // ...
+//     require('flowbite/plugin'),
+//   ],
+// };
