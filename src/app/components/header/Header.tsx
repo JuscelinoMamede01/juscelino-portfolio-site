@@ -5,7 +5,7 @@ import { Navbar } from "flowbite-react";
 
 export const Header = () => {
   return (
-    <div className="py-8 px-4 mx-auto max-w-screen-xl text-center ">
+    <div className=" px-4 mx-auto max-w-screen-xl text-center ">
       <Navbar fluid rounded>
         <Navbar.Brand as={Link} href="#">
           <img

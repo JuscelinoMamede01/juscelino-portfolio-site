@@ -5,7 +5,7 @@ import Image from "next/image";
 const Home = () => {
   return (
     <section className="bg-white ">
-      <div className="flex flex-col justify-between items-center">
+      <div className="flex flex-col  justify-between items-center">
         <h1 className="mt-4 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">
           Hi, there! I'm Juscelino.
         </h1>
@@ -14,23 +14,59 @@ const Home = () => {
           alt="Picture of the author"
           width={400}
           height={400}
-          // blurDataURL="data:..." automatically provided
-          // placeholder="blur" // Optional blur-up while loading
         />
       </div>
-      <div className="bg-yellow-300   flex  justify-evenly items-center p-4">
-        <article className="h-48 w-40 bg-black"></article>
-        <article className="h-48 w-40 bg-black"></article>
-        <article className="h-48 w-40 bg-black"></article>
-        <article className="h-48 w-40 bg-black"></article>
-        <article className="h-48 w-40 bg-black"></article>
+      <div className="bg-gray-900  flex flex-col justify-evenly items-center md:p-4 md:flex-row">
+        <article className="md:h-48 md:w-60 w-[100%] bg-gray-200 md:rounded flex flex-col justify-center p-4">
+          <img
+            className="w-[30%] h-[40%] "
+            src="/assets/web-icon.png"
+            alt="Picture of the author"
+          />
+          <h5 className="mb-2 text-2lg  font-bold tracking-tight text-gray-900  ">
+            Associate Degree in Web Systems
+          </h5>
+          <h5 className="mb-2 text-lg  font-light italic text-gray-900  ">
+            FICR
+          </h5>
+          <p className="font-normal text-gray-700 ">Aug 2022 / June 2024</p>
+        </article>
+        <article className="md:h-48 md:w-60 w-[100%] bg-gray-200 md:rounded flex flex-col justify-center  p-4">
+          <img
+            className="w-[30%] h-[40%] "
+            src="/assets/frontend.png"
+            alt="Picture of the author"
+          />
+          <h5 className="mb-2 text-2lg  font-bold tracking-tight text-gray-900  ">
+            FAP <br />
+            Frontend Developer
+          </h5>
+          <h5 className="mb-2 text-lg  font-light italic text-gray-900  ">
+            SOFTEX-PE
+          </h5>
+          <p className="font-normal text-gray-700 ">Aug 2023 / Jan 2024</p>
+        </article>
+        <article className="md:h-48 md:w-60 w-[100%] bg-gray-200 md:rounded flex flex-col justify-center p-4">
+          <img
+            className="w-[30%] h-[40%] "
+            src="/assets/english.png"
+            alt="Picture of the author"
+          />
+          <h5 className="mb-2 text-2lg  font-bold tracking-tight text-gray-900  ">
+            EF SET English Certificate 70/100 (C1 Advanced)
+          </h5>
+          <h5 className="mb-2 text-lg  font-light italic text-gray-900  ">
+            EF SET English
+          </h5>
+          <p className="font-normal text-gray-700 ">Apr 2023</p>
+        </article>
       </div>
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <h3
           className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl "
           data-aos="flip-up"
         >
-          This is my portfolio.
+          Who am I?
         </h3>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
           As an aspiring front-end developer, I am earnestly pursuing my initial
