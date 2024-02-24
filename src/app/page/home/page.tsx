@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { AcademicCard } from "./academicCard";
+import { AcademicCard } from "./AcademicCard";
 
 const Home = () => {
   return (
