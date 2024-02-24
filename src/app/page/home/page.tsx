@@ -1,16 +1,41 @@
 "use client";
 
+import Image from "next/image";
+
 const Home = () => {
   return (
     <section className="bg-white ">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">
-          Hi, there! I'm Juscelino
+      <div className="flex flex-col justify-between items-center">
+        <h1 className="mt-4 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">
+          Hi, there! I'm Juscelino.
         </h1>
+        <Image
+          src="/assets/my-banner.png"
+          alt="Picture of the author"
+          width={400}
+          height={400}
+          // blurDataURL="data:..." automatically provided
+          // placeholder="blur" // Optional blur-up while loading
+        />
+      </div>
+      <div className="bg-yellow-300   flex  justify-evenly items-center p-4">
+        <article className="h-48 w-40 bg-black"></article>
+        <article className="h-48 w-40 bg-black"></article>
+        <article className="h-48 w-40 bg-black"></article>
+        <article className="h-48 w-40 bg-black"></article>
+        <article className="h-48 w-40 bg-black"></article>
+      </div>
+      <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+        <h3
+          className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl "
+          data-aos="flip-up"
+        >
+          This is my portfolio.
+        </h3>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
           As an aspiring front-end developer, I am earnestly pursuing my initial
-          opportunity in the field. I bring a dedication to creating seamless
-          user experiences through creative implementation of web technologies.
+          opportunity in the field. I bring a dedication to creating a creative
+          implementation of web technologies.
         </p>
         <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg ">
           <span className="font-semibold text-gray-400 uppercase">
@@ -20,6 +45,7 @@ const Home = () => {
             <a
               href="https://www.linkedin.com/in/juscelinomamede/"
               className=" mb-5 lg:mb-0 hover:text-gray-800 "
+              target="_blank"
             >
               <svg
                 className="w-10 h-10 text-gray-500 hover:text-gray-800 "
@@ -40,6 +66,7 @@ const Home = () => {
             <a
               href="https://github.com/JuscelinoMamede01"
               className=" mb-5 lg:mb-0 hover:text-gray-800 "
+              target="_blank"
             >
               <svg
                 className="w-10 h-10 text-gray-500 hover:text-gray-800 "
