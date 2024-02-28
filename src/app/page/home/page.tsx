@@ -3,13 +3,14 @@
 import Image from "next/image";
 import { AcademicCard } from "./AcademicCard";
 import { FormSection } from "./FormSection";
+import { MyProjects } from "./MyProjects";
 
 const Home = () => {
   return (
     <>
-      <section className="bg-white ">
+      <section className="bg-white">
         <div className="flex flex-col  justify-between items-center">
-          <h1 className="mt-4 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">
+          <h1 className="mt-4 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
             Hi, there! I'm Juscelino.
           </h1>
           <Image
@@ -19,9 +20,9 @@ const Home = () => {
             height={400}
           />
         </div>
-        <div className="bg-gray-900  flex flex-col justify-evenly items-center md:p-4 md:flex-row">
+        <section className="bg-gray-900  flex flex-col justify-evenly items-center md:p-4 md:flex-row">
           <AcademicCard />
-        </div>
+        </section>
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
           <h3
             className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl "
@@ -83,7 +84,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <FormSection />.
+      <MyProjects />
+      <FormSection />
     </>
   );
 };
