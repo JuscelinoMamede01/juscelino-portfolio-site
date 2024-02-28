@@ -11,7 +11,7 @@ const Home = () => {
       <section className="bg-white">
         <div className="flex flex-col  justify-between items-center">
           <h1 className="mt-4 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
-            Hi, there! I'm Juscelino.
+            Hi, there! I&aposm Juscelino.
           </h1>
           <Image
             src="/assets/my-banner.png"
