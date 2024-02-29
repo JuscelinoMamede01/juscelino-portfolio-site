@@ -21,10 +21,8 @@ export const ProjectCard: React.FC<Project> = ({
 }) => {
   return (
     <>
-      <Card
-        href=""
-        className="max-w-sm"
-        renderImage={() => (
+      <div className="max-w-sm flex flex-col  flex-grow shrink basis-2 gap-4 bg-gray-200 p-4 rounded sm:rounded-2xl">
+        <div>
           <Image
             className="rounded"
             width={500}
@@ -32,34 +30,32 @@ export const ProjectCard: React.FC<Project> = ({
             src={src}
             alt={title}
           />
-        )}
-      >
-        <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          {title}
-        </h5>
-        <p className="font-normal text-gray-700 dark:text-gray-400">
-          {description}
-        </p>
-
-        <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">
-          Applied technology:
-        </h2>
-        <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
-          {technologies.map((tech) => (
-            <li key={tech}>{tech}</li>
-          ))}
-        </ul>
-        <div className="flex gap-4 items-center">
-          <Button
-            href={link}
-            className="bg-gray-900 text-white"
-            size="sm"
-            target="_blank"
-          >
-            See more
-          </Button>
         </div>
-      </Card>
+        <div className="flex flex-col flex-grow justify-self-start ">
+          <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            {title}
+          </h5>
+          <p className="font-normal text-gray-700 dark:text-gray-400">
+            {description}
+          </p>
+
+          <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">
+            Applied technology:
+          </h2>
+          <ul className="grid grid-cols-2 grid-rows-2 max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+            {technologies.map((tech) => (
+              <li key={tech}>{tech}</li>
+            ))}
+          </ul>
+        </div>
+        <a
+          href={link}
+          className="bg-gray-900 text-white rounded text-sm px-4 p-2 w-[40%]"
+          target="_blank"
+        >
+          See more
+        </a>
+      </div>
     </>
   );
 };
