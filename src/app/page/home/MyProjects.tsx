@@ -13,16 +13,18 @@ const myProjectsData = [
   {
     src: "/assets/laBasketeira.png",
     title: "La Basketeira",
-    description: "NBA Jersey Registration Project for E-commerce",
+    description:
+      "NBA Jersey Registration Project for E-commerce. A streamlined and secure platform for NBA fans to register and purchase authentic jerseys online.",
     technologies: ["HTML", "CSS", "PHP", "MySql", "Xampp"],
     link: "https://github.com/JuscelinoMamede01/ProjetoNBA",
   },
   {
-    src: "/assets/laBasketeira.png",
-    title: "Projeto3",
-    description: "desc3",
-    technologies: ["Tecnologia 1", "Tecnologia 2", "Tecnologia 3"],
-    link: "https://github.com/JuscelinoMamede01/expresso-saude-si-1",
+    src: "/assets/LeadBoost.png",
+    title: "LeadBoost",
+    description:
+      "The FICR LeadBoost System is a powerful tool that drives the company's commercial success, increasing the conversion of leads into enrollments.",
+    technologies: ["HTML", "CSS", "Bootstrap", "JS"],
+    link: "https://lead-boost.vercel.app/",
   },
 ];
 
