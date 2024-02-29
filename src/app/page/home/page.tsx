@@ -5,6 +5,30 @@ import { AcademicCard } from "./AcademicCard";
 import { FormSection } from "./FormSection";
 import { MyProjects } from "./MyProjects";
 
+const academicData = [
+  {
+    title: "Associate Degree in Web Systems",
+    institution: "FICR",
+    dateRange: "Aug 2022 / June 2024",
+    imageSrc: "/assets/web-icon.png",
+    altText: "My graduation",
+  },
+  {
+    title: "FAP Frontend Developer",
+    institution: "Softex-PE",
+    dateRange: "Aug 2023 / Jan 2024",
+    imageSrc: "/assets/frontend.png",
+    altText: "Frontend Course Programming",
+  },
+  {
+    title: "Advanced English",
+    institution: "ES SET English ",
+    dateRange: "April 2023",
+    imageSrc: "/assets/english.png",
+    altText: "English certification",
+  },
+];
+
 const Home = () => {
   return (
     <>
@@ -13,7 +37,6 @@ const Home = () => {
           <h1 className="mt-4 mb-4 text-center text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
             Hi, there! I&apos;m Juscelino.
           </h1>
-
           <Image
             src="/assets/my-banner.png"
             alt="Picture of the author"
@@ -21,10 +44,15 @@ const Home = () => {
             height={400}
           />
         </div>
-        <section className="bg-gray-900  flex flex-col justify-evenly items-center p-4 md:flex-row">
-          <AcademicCard />
+        <section className="bg-gray-900 flex flex-col justify-evenly items-center p-4 md:flex-row">
+          {academicData.map((cardData) => (
+            <AcademicCard key={cardData.title} {...cardData} />
+          ))}
         </section>
-        <div id="about-me"className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+        <div
+          id="about-me"
+          className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12"
+        >
           <h3
             className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl "
             data-aos="flip-up"
