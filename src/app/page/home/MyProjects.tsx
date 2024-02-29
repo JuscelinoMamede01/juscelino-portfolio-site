@@ -34,6 +34,22 @@ const myProjectsData = [
     technologies: ["HTML", "CSS", "JS"],
     link: "https://sinagogarecife.vercel.app/",
   },
+  {
+    src: "/assets/Ótica.png",
+    title: "Glasses store",
+    description:
+      "The Kahal Zur Israel Synagogue, also known as the Rock of Israel Congregation Synagogue, is historically significant for being the first synagogue in the Americas. It is located in Recife, Brazil.",
+    technologies: ["HTML", "CSS", "Bootstrap", "JS"],
+    link: "https://oticassl.vercel.app/",
+  },
+  {
+    src: "/assets/buscadorCEP.png",
+    title: "Brazilian zip code finder",
+    description:
+      "The Kahal Zur Israel Synagogue, also known as the Rock of Israel Congregation Synagogue, is historically significant for being the first synagogue in the Americas. It is located in Recife, Brazil.",
+    technologies: ["CSS", "REACT", "AXIOS"],
+    link: "https://sinagogarecife.vercel.app/",
+  },
 ];
 
 export const MyProjects = () => {
