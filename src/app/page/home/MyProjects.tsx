@@ -26,6 +26,14 @@ const myProjectsData = [
     technologies: ["HTML", "CSS", "Bootstrap", "JS"],
     link: "https://lead-boost.vercel.app/",
   },
+  {
+    src: "/assets/sinagoga.png",
+    title: "Recife's Synagogue",
+    description:
+      "The Kahal Zur Israel Synagogue, also known as the Rock of Israel Congregation Synagogue, is historically significant for being the first synagogue in the Americas. It is located in Recife, Brazil.",
+    technologies: ["HTML", "CSS", "JS"],
+    link: "https://sinagogarecife.vercel.app/",
+  },
 ];
 
 export const MyProjects = () => {
