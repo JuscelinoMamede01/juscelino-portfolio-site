@@ -7,7 +7,7 @@ import React from "react";
 export const FormSection = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 ">
+      <section id="contact" className="flex flex-col justify-center items-center py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 ">
         <h3
           className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl "
           data-aos="flip-up"
@@ -42,7 +42,7 @@ export const FormSection = () => {
             Submit
           </Button>
         </form>
-      </div>
+      </section>
     </>
   );
 };

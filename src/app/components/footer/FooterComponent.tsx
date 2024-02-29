@@ -16,8 +16,8 @@ export const FooterComponent = () => {
               alt="juscelino-Logo"
             /> */}
             <Footer.LinkGroup>
-              <Footer.Link href="#">About</Footer.Link>
-              <Footer.Link href="#">Contact</Footer.Link>
+              <Footer.Link href="#about-me">About</Footer.Link>
+              <Footer.Link href="#my-project">My projects</Footer.Link>
             </Footer.LinkGroup>
           </div>
           <Footer.Divider />

@@ -3,7 +3,7 @@ import React from "react";
 export const AcademicCard = () => {
   return (
     <>
-      <article className="md:h-48 md:w-60 w-[100%] bg-gray-200 md:rounded flex flex-col justify-center p-4">
+      <article className="md:h-48 md:w-60 w-[90%] mt-2 mb-2 rounded bg-gray-200 md:rounded flex flex-col justify-center p-4">
         <img
           className="w-[30%] h-[40%] "
           src="/assets/web-icon.png"
@@ -17,7 +17,7 @@ export const AcademicCard = () => {
         </h5>
         <p className="font-normal text-gray-700 ">Aug 2022 / June 2024</p>
       </article>
-      <article className="md:h-48 md:w-60 w-[100%] bg-gray-200 md:rounded flex flex-col justify-center  p-4">
+      <article className="md:h-48 md:w-60 w-[90%] mt-2 mb-2 rounded bg-gray-200 md:rounded flex flex-col justify-center  p-4">
         <img
           className="w-[30%] h-[40%] "
           src="/assets/frontend.png"
@@ -32,7 +32,7 @@ export const AcademicCard = () => {
         </h5>
         <p className="font-normal text-gray-700 ">Aug 2023 / Jan 2024</p>
       </article>
-      <article className="md:h-48 md:w-60 w-[100%] bg-gray-200 md:rounded flex flex-col justify-center p-4">
+      <article className="md:h-48 md:w-60 w-[90%] mt-2 mb-2 rounded bg-gray-200 md:rounded flex flex-col justify-center p-4">
         <img
           className="w-[30%] h-[40%] "
           src="/assets/english.png"

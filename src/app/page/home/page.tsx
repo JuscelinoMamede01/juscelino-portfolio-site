@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <section className="bg-white">
         <div className="flex flex-col  justify-between items-center">
-          <h1 className="mt-4 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+          <h1 className="mt-4 mb-4 text-center text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
             Hi, there! I&apos;m Juscelino.
           </h1>
 
@@ -21,10 +21,10 @@ const Home = () => {
             height={400}
           />
         </div>
-        <section className="bg-gray-900  flex flex-col justify-evenly items-center md:p-4 md:flex-row">
+        <section className="bg-gray-900  flex flex-col justify-evenly items-center p-4 md:flex-row">
           <AcademicCard />
         </section>
-        <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+        <div id="about-me"className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
           <h3
             className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl "
             data-aos="flip-up"
