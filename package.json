@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "@nextui-org/react": "^2.2.9",
     "flowbite-react": "^0.7.2",
     "framer-motion": "^10.17.4",
