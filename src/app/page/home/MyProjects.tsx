@@ -38,7 +38,7 @@ const myProjectsData = [
     src: "/assets/Ótica.png",
     title: "Glasses store",
     description:
-      "The Kahal Zur Israel Synagogue, also known as the Rock of Israel Congregation Synagogue, is historically significant for being the first synagogue in the Americas. It is located in Recife, Brazil.",
+      "Homepage for an optical store that blends elegance and functionality. With an intuitive design, we showcase products, ensuring a pleasant user experience. ",
     technologies: ["HTML", "CSS", "Bootstrap", "JS"],
     link: "https://oticassl.vercel.app/",
   },
@@ -46,9 +46,41 @@ const myProjectsData = [
     src: "/assets/buscadorCEP.png",
     title: "Brazilian zip code finder",
     description:
-      "The Kahal Zur Israel Synagogue, also known as the Rock of Israel Congregation Synagogue, is historically significant for being the first synagogue in the Americas. It is located in Recife, Brazil.",
+      "Brazilian Zip Code Finder was developed to locate addresses effortlessly with our intuitive tool for Brazilian postal codes.",
     technologies: ["CSS", "REACT", "AXIOS"],
-    link: "https://sinagogarecife.vercel.app/",
+    link: "https://cep-search-lilac.vercel.app/",
+  },
+  {
+    src: "/assets/jsonServerLeads.png",
+    title: "Lead's Registration system",
+    description:
+      "Project created to implement Json server for creating a lead registration system.",
+    technologies: [
+      "NEXTJS",
+      "REACT",
+      "TYPESCRIPT",
+      "TAILWIND CSS",
+      "NEXTUI",
+      "AXIOS",
+      "JSON server",
+    ],
+    link: "https://github.com/JuscelinoMamede01/av02-ruan-webservice/tree/main",
+  },
+  {
+    src: "/assets/add-note.png",
+    title: "ADD notes",
+    description: "Project created for learning MongoDB+Prisma.",
+    technologies: [
+      "NEXTJS",
+      "REACT",
+      "TYPESCRIPT",
+      "TAILWIND CSS",
+      "NEXTUI",
+      "AXIOS",
+      "MONGO DB",
+      "PRISMA ORM",
+    ],
+    link: "https://github.com/JuscelinoMamede01/Add-notes/tree/main",
   },
 ];
 
