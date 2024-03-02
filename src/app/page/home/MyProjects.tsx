@@ -82,6 +82,20 @@ const myProjectsData = [
     ],
     link: "https://github.com/JuscelinoMamede01/Add-notes/tree/main",
   },
+  {
+    src: "/assets/portfolio.png",
+    title: "My portfolio",
+    description: "Project created for my portfolio.",
+    technologies: [
+      "NEXTJS",
+      "TYPESCRIPT",
+      "TAILWIND CSS",
+      "NEXTUI",
+      "FORMSPREE",
+      "FLOWBITE-REACT",
+    ],
+    link: "https://github.com/JuscelinoMamede01/juscelino-portfolio-site",
+  },
 ];
 
 export const MyProjects = () => {
