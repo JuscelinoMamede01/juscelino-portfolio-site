@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This project aimed to build a demonstrative portfolio website.
+This project aimed to build my portfolio website.
 
 ## 👀 Demo
 
