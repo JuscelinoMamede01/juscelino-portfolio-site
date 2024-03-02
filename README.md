@@ -10,7 +10,7 @@ To experience the project in action, access the demo version [by clicking here](
 
 ## 🚀 Technologies
 
-This project was developed for portfolio using the following technologies:
+This project was developed for my portfolio website using the following technologies:
 
 - [NextJS](https://nextjs.org/ "NextJS")
 - [Typescript](https://www.typescriptlang.org/ "Typescript")
@@ -35,4 +35,4 @@ $ cd juscelino-portfolio-site
 
 by Juscelino Mamede 🎸
 
-JOHN 14:6
+JOHN 14:6 ✟
