@@ -24,7 +24,7 @@ const myProjectsData = [
     description:
       "The FICR LeadBoost System is a powerful tool that drives the company's commercial success, increasing the conversion of leads into enrollments.",
     technologies: ["HTML", "CSS", "Bootstrap", "JS"],
-    link: "https://lead-boost.vercel.app/",
+    link: "https://github.com/JuscelinoMamede01/leadBoost",
   },
   {
     src: "/assets/sinagoga.png",
@@ -32,7 +32,7 @@ const myProjectsData = [
     description:
       "The Kahal Zur Israel Synagogue, also known as the Rock of Israel Congregation Synagogue, is historically significant for being the first synagogue in the Americas. It is located in Recife, Brazil.",
     technologies: ["HTML", "CSS", "JS"],
-    link: "https://sinagogarecife.vercel.app/",
+    link: "https://github.com/JuscelinoMamede01/sinagoga-recife",
   },
   {
     src: "/assets/Ótica.png",
@@ -40,7 +40,7 @@ const myProjectsData = [
     description:
       "Homepage for an optical store that blends elegance and functionality. With an intuitive design, we showcase products, ensuring a pleasant user experience. ",
     technologies: ["HTML", "CSS", "Bootstrap", "JS"],
-    link: "https://oticassl.vercel.app/",
+    link: "https://github.com/JuscelinoMamede01/oticassl",
   },
   {
     src: "/assets/buscadorCEP.png",
@@ -48,7 +48,7 @@ const myProjectsData = [
     description:
       "Brazilian Zip Code Finder was developed to locate addresses effortlessly with our intuitive tool for Brazilian postal codes.",
     technologies: ["CSS", "REACT", "AXIOS"],
-    link: "https://cep-search-lilac.vercel.app/",
+    link: "https://github.com/JuscelinoMamede01/cep-search",
   },
   {
     src: "/assets/jsonServerLeads.png",
