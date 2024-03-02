@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This project aimed at building a demonstrative portfolio website, aiming to enhance the following concepts: a) HTML semantic tags; b) CSS Grid; c) CSS Flexbox; d) Media Queries for responsiveness. Additionally, the Sass feature was used for modularization, code refactoring, and defining global variables related to the application's theme.
+This project aimed to build a demonstrative portfolio website.
 
 ## 👀 Demo
 
@@ -12,12 +12,12 @@ To experience the project in action, access the demo version [by clicking here](
 
 This project was developed for portfolio using the following technologies:
 
-- [NextJS](https://developer.mozilla.org/en-US/docs/Web/HTML "NextJS")
-- [Typescript](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids "Typescript")
-- [Tailwind CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox "Tailwind CSS")
-- [NextUI](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries "NextUI")
-- [Flowbite-react](https://sass-lang.com/guide/ "Flowbite-react")
-- [Formspree/react](https://sass-lang.com/guide/ "Formspree")
+- [NextJS](https://nextjs.org/ "NextJS")
+- [Typescript](https://www.typescriptlang.org/"Typescript")
+- [Tailwind CSS](https://tailwindcss.com/ "Tailwind CSS")
+- [NextUI](https://nextui.org/ "NextUI")
+- [Flowbite-react](https://www.flowbite-react.com/ "Flowbite-react")
+- [Formspree/react](https://formspree.io/ "Formspree")
 
 ## ℹ️ Running
 
@@ -28,9 +28,11 @@ To clone and run this project, execute in your command line:
 $ git clone https://github.com/JuscelinoMamede01/juscelino-portfolio-site
 
 # Accessing the repository
-$ cd site-ancora
+$ cd juscelino-portfolio-site
 ```
 
 ---
 
 by Juscelino Mamede 🎸
+
+JOHN 14:6
