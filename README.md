@@ -13,7 +13,7 @@ To experience the project in action, access the demo version [by clicking here](
 This project was developed for portfolio using the following technologies:
 
 - [NextJS](https://nextjs.org/ "NextJS")
-- [Typescript](https://www.typescriptlang.org/"Typescript")
+- [Typescript](https://www.typescriptlang.org/ "Typescript")
 - [Tailwind CSS](https://tailwindcss.com/ "Tailwind CSS")
 - [NextUI](https://nextui.org/ "NextUI")
 - [Flowbite-react](https://www.flowbite-react.com/ "Flowbite-react")
