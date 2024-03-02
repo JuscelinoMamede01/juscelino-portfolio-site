@@ -4,7 +4,7 @@ This project aimed to build my portfolio website.
 
 ## 👀 Demo
 
-To experience the project in action, access the demo version [by clicking here](https://juscelinomamede.vercel.app/).
+To experience the project in action, access the version [by clicking here](https://juscelinomamede.vercel.app/).
 
 <img src="https://raw.githubusercontent.com/JuscelinoMamede01/juscelino-portfolio-site/main/public/assets/portfolio.png" width="100%">
 
