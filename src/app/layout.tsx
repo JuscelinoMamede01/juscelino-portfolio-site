@@ -10,6 +10,9 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Juscelino Mamede",
   description: "This is my portfolio",
+  icons: {
+    icon: ["/assets/favicon.ico"],
+  },
 };
 
 export default function RootLayout({
