@@ -27,6 +27,20 @@ const myProjectsData = [
     link: "https://github.com/JuscelinoMamede01/leadBoost",
   },
   {
+    src: "/assets/calc.png",
+    title: "Calculator",
+    description: "Creating a calculator with JS and SASS.",
+    technologies: ["HTML", "CSS/SASS", "Bootstrap", "JS"],
+    link: "https://github.com/JuscelinoMamede01/calculadora-js",
+  },
+  {
+    src: "/assets/whats-the-word.png",
+    title: "What's the word? Game",
+    description: "Creating a What's the word? GAME with JS and SASS.",
+    technologies: ["HTML", "CSS/SASS", "Bootstrap", "JS"],
+    link: "https://github.com/JuscelinoMamede01/forca-js",
+  },
+  {
     src: "/assets/sinagoga.png",
     title: "Recife's Synagogue",
     description:
