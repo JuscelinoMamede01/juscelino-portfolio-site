@@ -40,8 +40,8 @@ const Home = () => {
           <Image
             src="/assets/my-banner.png"
             alt="Picture of the author"
-            width={400}
-            height={400}
+            width={450}
+            height={450}
           />
         </div>
         <section className="bg-gray-900 flex flex-col justify-evenly items-center p-4 md:flex-row">
