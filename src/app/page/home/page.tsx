@@ -7,7 +7,7 @@ import { MyProjects } from "./MyProjects";
 
 const academicData = [
   {
-    title: "Associate Degree in Web Systems",
+    title: "Degree in Web Systems",
     institution: "FICR",
     dateRange: "Aug 2022 / June 2024",
     imageSrc: "/assets/web-icon.png",
