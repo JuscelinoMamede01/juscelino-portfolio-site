@@ -97,6 +97,21 @@ const myProjectsData = [
     link: "https://github.com/JuscelinoMamede01/Add-notes/tree/main",
   },
   {
+    src: "/assets/Customers.png",
+    title: "CRUD REACT/NODE",
+    description: "Project created for learning REACT MongoDB+Prisma.",
+    technologies: [
+      "NEXTJS",
+      "REACT",
+      "TYPESCRIPT",
+      "TAILWIND CSS",
+      "AXIOS",
+      "MONGO DB",
+      "PRISMA ORM",
+    ],
+    link: "https://github.com/JuscelinoMamede01/crud-mern",
+  },
+  {
     src: "/assets/portfolio.png",
     title: "My portfolio",
     description: "Project created for my portfolio.",
